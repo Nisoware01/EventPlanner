@@ -23,7 +23,7 @@ agent = create_react_agent(
 )
 
 response = agent.invoke(
-    {"messages": [{"role": "user", "content": "what is the weather in sf"}]}
+    {"messages": [{"role": "user", "content": "what is the weather in ktm"}]}
 )
 
 # Print structured result
